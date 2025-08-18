@@ -5,12 +5,13 @@
     padding: 0px 20px;
 
     background-color: #1f1f1f;
+    box-shadow: 0px 0px 30px -10px;
     z-index: 1000;
 
-   display: flex;
-   align-content: center;
-   justify-content: center;
-   justify-content: space-between;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 .container-navbar .input {
@@ -18,9 +19,11 @@
     margin-left: 28%;
     width: 50%;
     height: 50px;
+
+    display: flex;
 }
 
-input{
+input {
     width: 90%;
     min-width: 200px;
     height: 100%;
@@ -31,34 +34,75 @@ input{
     transition: ease all .5s;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border: 3px solid #ff800d;
 }
 
 .input i {
     cursor: pointer;
-    margin-left: -30px;
-    font-size: 20px;
+    margin-left: -65px;
+    margin-top: -4px;
+    font-size: 30px;
+    /* border: 2px solid red; */
+    padding: 5px 15px;
 }
 
 .logomarca {
     margin: auto;
     width: 15%;
+    min-width: 170px;
+    max-width: 300px;
     height: 75px;
-    min-width: 150px;
 }
+
 /* FIM NAVBAR */
 
 /* SUB-NAVBAR */
 .container-subnavbar {
-    width: 100px;
+    display: block;
+    width: 130px;
     height: 100vh;
+    padding: 100px 0px 40px 50px;
+    background-color: #ff800d;
+    color: #f1f1f1;
+
+    overflow: hidden;
 
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: #ff800d;
+    box-shadow: 0px 0px 30px -10px #1f1f1f;
 
     position: fixed;
+
+    transition: all ease .5s;
+}
+
+.container-subnavbar:hover {
+    width: 380px;
+}
+
+.container-subnavbar ul {
+    list-style-type: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+ul li.item-menu a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 40px;
+
+    padding: 20px 4%;
+    display: flex;
+    transition: all ease .5s;
+}
+
+ul li.item-menu a:hover{
+    color: #1f1f1f;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 35px;
 }
 /* FIM SUB-NAVBAR */

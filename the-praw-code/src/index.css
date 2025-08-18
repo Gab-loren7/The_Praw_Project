@@ -10,8 +10,18 @@
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar-thumb {
+    background-color: #1f1f1f;
+    border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f1f1f1;
   z-index: 1;
+  height: 2000px;
   /* overflow-y: hidden; */
 }
