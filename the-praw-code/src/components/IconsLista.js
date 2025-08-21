@@ -1,48 +1,54 @@
 import React from 'react'
+import Styles from '../components/Navbar/navbar.module.css';
 
 const IconsLista = () => {
     return (
-        <ul>
-            {/* Inicio */}
-            <li className='item-menu'>
-                <a href='#'>
-                    <span className='icon'><i class="bi bi-house-fill" /></span>
-                    <span className='txt-link'>Início</span>
-                </a>
-            </li>
+        <div>
 
-            {/* Promoções */}
-            <li className='item-menu'>
-                <a href='#'>
-                    <span className='icon'><i class="bi bi-currency-dollar icons" /></span>
-                    <span className='txt-link'>Promoções</span>
-                </a>
-            </li>
+            <ul>
 
-            {/* Perfil */}
-            <li className='item-menu'>
-                <a href='#'>
-                    <span className='icon'><i class="bi bi-person-circle icons" /></span>
-                    <span className='txt-link'>Perfil</span>
-                </a>
-            </li>
+                {/* Inicio */}
+                <li className={Styles.item_menu}>
+                    <a href='/'>
+                        <span className={Styles.icon}><i class="bi bi-house-fill" /></span>
+                        <span className={Styles.txt_link}>Início</span>
+                    </a>
+                </li>
 
-            {/* Compras */}
-            <li className='item-menu'>
-                <a href='#'>
-                    <span className='icon'> <i class="bi bi-bag-fill" /></span>
-                    <span className='txt-link'>Compras</span>
-                </a>
-            </li>
+                {/* Promoções */}
+                <li className={Styles.item_menu}>
+                    <a href='#'>
+                        <span className={Styles.icon}><i class="bi bi-currency-dollar icons" /></span>
+                        <span className={Styles.txt_link}>Promoções</span>
+                    </a>
+                </li>
 
-            {/* Empresa */}
-            <li className='item-menu'>
-                <a href='#'>
-                    <span className='icon'> <i class="bi bi-building-fill icons" /></span>
-                    <span className='txt-link'>Empresa</span>
-                </a>
-            </li>
-        </ul>
+                {/* Perfil */}
+                <li className={Styles.item_menu}>
+                    <a href='#'>
+                        <span className={Styles.icon}><i class="bi bi-person-circle icons" /></span>
+                        <span className={Styles.txt_link}>Perfil</span>
+                    </a>
+                </li>
+
+                {/* Compras */}
+                <li className={Styles.item_menu}>
+                    <a href='#'>
+                        <span className={Styles.icon}> <i class="bi bi-bag-fill" /></span>
+                        <span className={Styles.txt_link}>Compras</span>
+                    </a>
+                </li>
+
+                {/* Empresa */}
+                <li className={Styles.item_menu}>
+                    <a href='/Empresa'>
+                        <span className={Styles.icon}> <i class="bi bi-building-fill icons" /></span>
+                        <span className={Styles.txt_link}>Empresa</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     );
 };
 

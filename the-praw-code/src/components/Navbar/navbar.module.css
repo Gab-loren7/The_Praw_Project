@@ -1,5 +1,5 @@
 /* NAVBAR */
-.container-navbar {
+.container_navbar {
     width: 100%;
     height: 100px;
     padding: 0px 20px;
@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-.container-navbar .input {
+.container_navbar .input {
     margin: auto;
     margin-left: 28%;
     width: 50%;
@@ -59,11 +59,11 @@ input:focus {
 /* FIM NAVBAR */
 
 /* SUB-NAVBAR */
-.container-subnavbar {
+.container_subnavbar {
     display: block;
-    width: 130px;
+    width: 90px;
     height: 100vh;
-    padding: 100px 0px 40px 50px;
+    padding: 100px 0px 50px 20px;
     background-color: #ff800d;
     color: #f1f1f1;
 
@@ -78,17 +78,17 @@ input:focus {
     transition: all ease .5s;
 }
 
-.container-subnavbar:hover {
-    width: 380px;
+.container_subnavbar:hover {
+    width: 350px;
 }
 
-.container-subnavbar ul {
+.container_subnavbar ul {
     list-style-type: none;
     cursor: pointer;
     height: 100%;
 }
 
-ul li.item-menu a{
+ul li.item_menu a {
     text-decoration: none;
     color: #f1f1f1;
     font-size: 40px;
@@ -98,11 +98,12 @@ ul li.item-menu a{
     transition: all ease .5s;
 }
 
-ul li.item-menu a:hover{
+ul li.item_menu a:hover {
     color: #1f1f1f;
 }
 
-ul li.item-menu a .txt-link {
+ul li.item_menu a .txt_link {
     margin-left: 35px;
 }
+
 /* FIM SUB-NAVBAR */
