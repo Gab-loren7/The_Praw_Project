@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from '../Empresa/Empresa.module.css';
+import Styles from '../Empresa/Empresa.module.css'
 import Navbar from '../../components/Navbar/navbar';
 
 let Empresa = () => {

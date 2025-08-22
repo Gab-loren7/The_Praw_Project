@@ -27,7 +27,7 @@ const IconsLista = () => {
                 <li className={Styles.item_menu}>
                     <a href='#'>
                         <span className={Styles.icon}><i class="bi bi-person-circle icons" /></span>
-                        <span className={Styles.txt_link}>Perfil</span>
+                        <span className={Styles.txt_link}>Perfil ADM</span>
                     </a>
                 </li>
 
